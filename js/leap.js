@@ -3,7 +3,7 @@
     "use strict";
 
     Leap.loop(function(frame) {
-        console.log(a);
+        console.log("a");
     });
 
 })(this, document);
