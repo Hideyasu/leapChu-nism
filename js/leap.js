@@ -23,7 +23,7 @@ function getFingerName(fingerType) {
           hand = frame.hands[i];
           frameString += concatData(getHandName(hand.type));
 
-            // 「指」単位の処理
+            // 「指」単位の処理hide
             finger = hand.fingers[3];
             fingerString =""
             fingerString += finger.tipPosition[1]; // 指先の位置
