@@ -8,6 +8,8 @@ $(function() {
         if ($('div').hasClass('is_show')) {
             $('.is_show').removeClass('is_show');
         }
+        $('div').removeClass('is_active');
+        $('.answer').empty();
         swipe();
         var rand = Math.floor(Math.random() * 4);
         console.log(rand);
@@ -62,16 +64,19 @@ $(function() {
                             $('.up').addClass('is_active');
                             if ($('.l-side .top').hasClass('is_show')) {
                                 $('.answer').append('<span>ok</span>');
+                                $('div').removeClass('is_active');
                                 start();
                             } else {
                                 $('.answer').append('<span>but</span>');
 
                             }
+
                         }
                         if (swipeDirection === "left") {
                             $('.left').addClass('is_active');
                             if ($('.l-side .left').hasClass('is_show')) {
                                 $('.answer').append('<span>ok</span>');
+                                $('div').removeClass('is_active');
                                 start();
                             } else {
                                 $('.answer').append('<span>but</span>');
@@ -82,6 +87,7 @@ $(function() {
                             $('.right').addClass('is_active');
                             if ($('.l-side .right').hasClass('is_show')) {
                                 $('.answer').append('<span>ok</span>');
+                                $('div').removeClass('is_active');
                                 start();
                             } else {
                                 $('.answer').append('<span>but</span>');
@@ -92,6 +98,7 @@ $(function() {
                             $('.under').addClass('is_active');
                             if ($('.l-side .under').hasClass('is_show')) {
                                 $('.answer').append('<span>ok</span>');
+                                $('div').removeClass('is_active');
                                 start();
                             } else {
                                 $('.answer').append('<span>but</span>');
