@@ -45,7 +45,7 @@ function getFingerName(fingerType) {
               synth.triggerAttackRelease('D3', '1m');
             }
             //「C5」の音を「2分音符」で発音
-            synth.triggerAttackRelease(100, '1m');
+            //synth.triggerAttackRelease(100, '1m');
         }
         // Display Gesture object data
         if (frame.gestures.length > 0) {
