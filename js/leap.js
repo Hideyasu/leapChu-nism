@@ -12,7 +12,7 @@ function getFingerName(fingerType) {
   return ["親指　 : ", "人差指: ", "中指　: ", "薬指　: ", "小指　: "][fingerType];
 }
 (function(win, doc) {
-    synth.triggerAttackRelease(100, '1m');
+    //synth.triggerAttackRelease(100, '1m');
     var synth = new Tone.SimpleSynth().toMaster();
     var controllerOptions = { enableGestures: true };
     Leap.loop(controllerOptions, function(frame) {
