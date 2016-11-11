@@ -1,0 +1,150 @@
+.l-wrapp {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	display: row;
+}
+
+.main {
+	width: 800px;
+	box-sizing: border-box;
+	background: black;
+}
+
+.top {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.up {
+	width: 180px;
+	height: 180px;
+	padding: 20px;
+	margin: 20px;
+	border: 3px solid #f1f1f1;
+	background: gray;
+	box-sizing: border-box;
+}
+
+.up:hover {
+	background-color: #191970;
+}
+
+.up-inner {
+	height: 100%;
+	background: white;
+	-webkit-clip-path: polygon(50% 0%, 100% 40%, 80% 40%, 80% 100%, 20% 100%, 20% 40%, 0 40%);
+	clip-path: polygon(50% 0%, 100% 40%, 80% 40%, 80% 100%, 20% 100%, 20% 40%, 0 40%);
+}
+
+.center {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.left {
+	width: 180px;
+	height: 180px;
+	padding: 20px;
+	margin: 20px;
+	border: 3px solid #f1f1f1;
+	background: gray;
+	box-sizing: border-box;
+}
+
+.left:hover {
+	background-color: #191970;
+}
+
+.left-inner {
+	height: 100%;
+	background: white;
+	-webkit-clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+	clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+}
+
+.center-inner {
+	width: 200px;
+	height: 200px;
+}
+
+.right {
+	width: 180px;
+	height: 180px;
+	padding: 20px;
+	margin: 20px;
+	border: 3px solid #f1f1f1;
+	background: gray;
+	box-sizing: border-box;
+}
+
+.right:hover {
+	background-color: #191970;
+}
+
+.right-inner {
+	height: 100%;
+	background: white;
+	-webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+	clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+
+.bottom {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.under {
+	width: 180px;
+	height: 180px;
+	padding: 20px;
+	margin: 20px;
+	border: 3px solid #f1f1f1;
+	background: gray;
+	box-sizing: border-box;
+}
+
+.under:hover {
+	background-color: #191970;
+}
+
+.under-inner {
+	height: 100%;
+	background: white;
+	-webkit-clip-path: polygon(20% 60%, 20% 0, 80% 0, 80% 60%, 100% 60%, 50% 100%, 0 60%);
+	clip-path: polygon(20% 60%, 20% 0, 80% 0, 80% 60%, 100% 60%, 50% 100%, 0 60%);
+}
+
+.l-side {
+	width: 400px;
+	height: 100%;
+	background: red;
+}
+
+.side-center {
+	display: none;
+}
+
+.is_show {
+	display: block;
+}
+

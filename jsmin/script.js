@@ -1,0 +1,1 @@
+$(function(){$(document).click(function(){$(".side-center").css("display","block")})});
