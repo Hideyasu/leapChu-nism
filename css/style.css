@@ -136,15 +136,65 @@
 
 .l-side {
 	width: 400px;
-	height: 100%;
+	height: 350px;
 	background: red;
 }
 
 .side-center {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.side-center .top {
+	display: none;
+}
+
+.side-center .left {
+	display: none;
+}
+
+.side-center .right {
+	display: none;
+}
+
+.side-center .under {
 	display: none;
 }
 
 .is_show {
-	display: block;
+	display: block !important;
+}
+
+.is_active {
+	background: black;
+}
+
+.start {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 10px 20px;
+	margin: 20px 0 0;
+	font-size: 20px;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.start button {
+	width: 50%;
+	border: 1px solid;
 }
 
