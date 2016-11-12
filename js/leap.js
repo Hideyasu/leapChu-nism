@@ -87,10 +87,10 @@ function getFingerName(fingerType) {
                     }
                     console.log(swipeDirection);
                     if (swipeDirection === "right") {
-
+                        //なんか音
                     }
                     if (swipeDirection === "left") {
-
+                        //なんか音
                     }
                 }
             }
